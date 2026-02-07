@@ -24,3 +24,17 @@ faders.forEach(fader => {
 function openDemo(url) {
     window.open(url, '_blank');
 }
+
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+
+    const mailtoLink = `mailto:contact@ai-lab.esi.dz?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+        "From: " + email + "\n\n" + message
+    )}`;
+
+    window.location.href = mailtoLink;
+});

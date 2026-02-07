@@ -106,3 +106,26 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+#contact form {
+    max-width: 500px;
+}
+
+#contact label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+#contact button {
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
