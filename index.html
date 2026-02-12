@@ -236,10 +236,10 @@
         For academic collaborations, internships, or research inquiries, please use the form below.
     </p>
 
-    <div class="contact-container">
+    <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
 
         <!-- Contact Form -->
-        <div class="contact-form">
+        <div style="flex: 1; min-width: 300px;">
             <form action="https://formspree.io/f/xxxxx" method="POST">
                 <label for="email">Your Email</label>
                 <input type="email" id="email" name="email" required>
@@ -255,11 +255,14 @@
         </div>
 
         <!-- Map -->
-        <div class="contact-map">
+        <div style="flex: 1; min-width: 300px;">
             <h3>ESI Location</h3>
             <iframe 
                 src="https://www.google.com/maps?q=École%20nationale%20Supérieure%20d’Informatique%20Alger&output=embed"
-                allowfullscreen
+                width="100%" 
+                height="350" 
+                style="border:0;" 
+                allowfullscreen="" 
                 loading="lazy">
             </iframe>
         </div>
@@ -279,6 +282,7 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
