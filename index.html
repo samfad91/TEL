@@ -228,24 +228,46 @@
 
 <!-- CONTACT -->
 
+<!-- CONTACT -->
+
 <section id="contact" class="fade">
     <h2>Contact</h2>
     <p>
         For academic collaborations, internships, or research inquiries, please use the form below.
     </p>
 
-    <form action="https://formspree.io/f/xxxxx" method="POST">
-        <label for="email">Your Email</label>
-        <input type="email" id="email" name="email" required>
+    <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
 
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" required>
+        <!-- Contact Form -->
+        <div style="flex: 1; min-width: 300px;">
+            <form action="https://formspree.io/f/xxxxx" method="POST">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
 
-        <button type="submit">Send Message</button>
-    </form>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Map -->
+        <div style="flex: 1; min-width: 300px;">
+            <h3>ESI Location</h3>
+            <iframe 
+                src="https://www.google.com/maps?q=École%20nationale%20Supérieure%20d’Informatique%20Alger&output=embed"
+                width="100%" 
+                height="350" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
 </section>
 
 <footer>
@@ -259,6 +281,7 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
