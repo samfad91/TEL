@@ -1,11 +1,10 @@
-/* --- Global Resets & Variables --- */
+/* --- Global Styling --- */
 :root {
-    --primary: #002b5c;      /* Navy Blue */
-    --accent: #327bb8;       /* Tech Blue */
-    --accent-hover: #b3361e; /* Warm Terracotta (for contrast) */
-    --bg-light: #f8fbff;
-    --text-main: #1e2b37;
-    --glass: rgba(255, 255, 255, 0.8);
+    --navy: #0a1f33;
+    --blue-accent: #1a4972;
+    --light-blue: #4fa3e0;
+    --bg-gray: #f4f7fc;
+    --text-dark: #1e2b37;
 }
 
 * {
@@ -15,19 +14,19 @@
 }
 
 body {
-    font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
-    background: var(--bg-light);
-    color: var(--text-main);
-    line-height: 1.7;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-gray);
+    color: var(--text-dark);
+    line-height: 1.6;
     scroll-behavior: smooth;
 }
 
 /* --- Header & Branding --- */
 header {
-    background: linear-gradient(135deg, #0a1f33 0%, #1a4972 100%);
+    background: linear-gradient(135deg, var(--navy) 0%, var(--blue-accent) 100%);
     color: white;
-    padding: 3rem 1.5rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 3rem 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .header-content {
@@ -40,213 +39,207 @@ header {
 }
 
 .logo {
-    width: 140px; /* Increased size for the detailed SVG */
+    width: 180px; /* Adjusted for the wide TEL logo */
     height: auto;
     background: white;
-    border-radius: 16px;
-    padding: 6px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
-}
-
-.logo:hover {
-    transform: translateY(-5px);
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 header h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    letter-spacing: -1px;
-    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+
+header p {
+    opacity: 0.9;
+    font-size: 1.1rem;
 }
 
 /* --- Sticky Navigation --- */
 nav {
-    background: var(--glass);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: white;
     padding: 1rem;
     display: flex;
     justify-content: center;
-    gap: 2.5rem;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    gap: 2rem;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 nav a {
-    color: var(--primary);
     text-decoration: none;
+    color: var(--navy);
     font-weight: 600;
     font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: 0.3s ease;
-    padding: 0.5rem 0;
-    position: relative;
-}
-
-nav a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--accent);
-    transition: width 0.3s ease;
+    transition: color 0.3s;
 }
 
 nav a:hover {
-    color: var(--accent);
+    color: var(--light-blue);
 }
 
-nav a:hover::after {
-    width: 100%;
-}
-
-/* --- Layout Sections --- */
+/* --- Content Sections --- */
 section {
     max-width: 1100px;
-    margin: 4rem auto;
+    margin: 3rem auto;
+    padding: 3rem;
     background: white;
-    padding: 3.5rem;
-    border-radius: 24px;
-    box-shadow: 0 15px 35px rgba(0, 30, 60, 0.05);
-    border: 1px solid rgba(0,0,0,0.02);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 h2 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    color: var(--primary);
-    margin-bottom: 2.5rem;
-    display: flex;
-    align-items: center;
+    color: var(--navy);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid var(--light-blue);
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
-h2::before {
-    content: "";
-    width: 8px;
-    height: 40px;
-    background: var(--accent);
-    margin-right: 1.2rem;
-    border-radius: 4px;
+p { margin-bottom: 1rem; }
+
+ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-/* --- Research Cards --- */
+li { margin-bottom: 0.5rem; }
+
+/* --- Research Cards Grid --- */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
+    margin-top: 2rem;
 }
 
 .card {
-    background: #ffffff;
-    padding: 2.2rem;
-    border-radius: 20px;
-    border: 1px solid #edf2f7;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.02);
-    transition: all 0.3s ease;
+    background: #f8fbfe;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e1e8f0;
+    transition: transform 0.3s, border-color 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0, 45, 70, 0.08);
-    border-color: var(--accent);
+    transform: translateY(-5px);
+    border-color: var(--light-blue);
 }
 
 .card h3 {
-    color: var(--primary);
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
+    color: var(--blue-accent);
+    margin-bottom: 0.8rem;
 }
 
-/* --- Team Member Grid --- */
+/* --- Members Grid --- */
 .members {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.2rem;
 }
 
 .member {
     background: #fdfdfe;
     padding: 1.5rem;
-    border-radius: 16px;
-    border: 1px solid #eef2f6;
-    transition: 0.3s ease;
-    text-align: center; /* Centered for a cleaner professional profile look */
+    border-radius: 10px;
+    border-left: 5px solid var(--blue-accent);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
 }
 
-.member:hover {
-    background: white;
-    border-color: var(--accent);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+.member h3 {
+    font-size: 1.1rem;
+}
+
+.member h3 a {
+    color: var(--blue-accent);
+    text-decoration: none;
+}
+
+.member h3 a:hover {
+    text-decoration: underline;
 }
 
 .role-tag {
-    display: inline-block;
-    background: #e1effe;
-    color: var(--accent);
-    font-size: 0.75rem;
-    padding: 0.3rem 1.2rem;
-    border-radius: 50px;
-    font-weight: 700;
+    background: var(--navy);
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 10px;
+    border-radius: 20px;
     text-transform: uppercase;
-    margin-top: 10px;
+    display: inline-block;
+    margin-top: 5px;
 }
 
-/* --- Contact Form --- */
+/* --- Contact & Forms --- */
+.contact-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.contact-form, .map-box {
+    flex: 1 1 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
 input, textarea {
-    width: 100%;
-    padding: 1rem 1.2rem;
-    border: 2px solid #eef2f6;
-    border-radius: 12px;
-    font-family: inherit;
-    transition: 0.3s;
+    padding: 0.8rem;
     margin-bottom: 1rem;
-}
-
-input:focus, textarea:focus {
-    outline: none;
-    border-color: var(--accent);
-    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
 }
 
 button {
-    background: var(--primary);
+    background: var(--blue-accent);
     color: white;
-    padding: 1rem 2.5rem;
     border: none;
-    border-radius: 12px;
-    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: 6px;
     cursor: pointer;
-    transition: 0.3s;
+    font-weight: 600;
+    width: max-content;
 }
 
 button:hover {
-    background: var(--accent-hover);
-    transform: scale(1.02);
+    background: var(--navy);
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
 }
 
 /* --- Footer --- */
 footer {
-    background: #0a1f33;
-    color: #a0aec0;
-    padding: 3rem 1rem;
     text-align: center;
-}
-
-footer a {
+    padding: 3rem;
+    background: var(--navy);
     color: white;
-    text-decoration: none;
-    border-bottom: 1px solid #4a5568;
+    margin-top: 4rem;
 }
 
-/* --- Responsive Adjustments --- */
+footer a { color: var(--light-blue); text-decoration: none; }
+
+/* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
-    section { padding: 2rem; margin: 2rem 1rem; }
-    header h1 { font-size: 2rem; }
     .header-content { text-align: center; justify-content: center; }
+    section { padding: 1.5rem; }
+    nav { gap: 1rem; flex-wrap: wrap; }
 }
