@@ -32,9 +32,10 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     const subject = document.getElementById("subject").value;
     const message = document.getElementById("message").value;
 
-    const mailtoLink = `mailto:contact@ai-lab.esi.dz?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:telcontactesi@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
         "From: " + email + "\n\n" + message
     )}`;
 
     window.location.href = mailtoLink;
+
 });
