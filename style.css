@@ -39,12 +39,9 @@ header {
 }
 
 .logo {
-    width: 180px; /* Adjusted for the wide TEL logo */
-    height: auto;
-    background: white;
-    padding: 8px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+     height: 70px;      /* adjust: 60–90px */
+    width: auto;       /* keeps proportions */
+    object-fit: contain;
 }
 
 header h1 {
