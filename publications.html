@@ -1,71 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Publications | AI Research Laboratory - ESI</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>TELIS Publications</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- ================= HEADER ================= -->
 <header>
     <div class="header-content">
-        <img src="logo.png" class="logo">
+        <img src="logoTEL.png" 
+             alt="TELIS - Technology-Enhanced Learning & Intelligent Systems" 
+             class="logo">
+
         <div>
-            <h1>Publications</h1>
-            <p>Scientific Contributions of the Laboratory</p>
+            <h1>TELIS Research Publications</h1>
+            <p>Technology-Enhanced Learning & Intelligent Systems</p>
+            <p>
+                LMCS Laboratory<br>
+                École nationale Supérieure d’Informatique (ESI), Algiers
+            </p>
         </div>
     </div>
 </header>
 
-<nav>
-    <a href="index.html#about">About</a>
+<!-- ================= NAV ================= -->
+<nav aria-label="Main navigation"> 
+    <a href="index.html">About</a>
+    <a href="index.html#lmcs">LMCS</a>
     <a href="index.html#research">Research</a>
-    <a href="projects.html">Projects</a>
-    <a href="publications.html">Publications</a>
     <a href="index.html#members">Members</a>
     <a href="index.html#contact">Contact</a>
+    <a href="publications.html">Publications</a>
 </nav>
 
+<!-- ================= LOGIN BUTTON ================= -->
+<div style="text-align:center; margin:20px;">
+    <button id="openLoginBtn">Member Access</button>
+</div>
 
-<section class="fade">
-    <h2>Journal Articles</h2>
-    <div class="card">
-        <p><strong>Balla Mamar</strong>, Anbila Bousbia, “AI-Based Sentiment Analysis for E-Learning Platforms”, <em>Journal of Artificial Intelligence Research</em>, 2025.</p>
+<!-- ================= LOGIN MODAL ================= -->
+<div id="loginModal" class="modal">
+
+    <div class="modal-content">
+
+        <span id="closeModal" class="close">&times;</span>
+
+        <h2>Member Login</h2>
+
+        <!-- EMAIL -->
+        <input type="text" id="email" placeholder="Email or login">
+
+        <!-- PASSWORD (UI ONLY - NOT USED FOR REAL SECURITY) -->
+        <input type="password" id="password" placeholder="Password">
+
+        <button id="loginBtn">Login</button>
+
     </div>
 
-    <div class="card">
-        <p>Author names, “Healthcare Prediction using Deep Learning”, <em>IEEE Access</em>, 2024.</p>
-    </div>
-</section>
+</div>
 
-<section class="fade">
-    <h2>Conference Papers</h2>
-    <div class="card">
-        <p>Author names, “Emotion Detection in Arabic Text using NLP”, <em>ICAI Conference</em>, 2024.</p>
-    </div>
+<!-- ================= ADD PUBLICATION ================= -->
+<div id="submitBox" style="display:none;">
 
-    <div class="card">
-        <p>Author names, “Adaptive Learning Systems using AI”, <em>EDUCON</em>, 2023.</p>
-    </div>
-</section>
+    <h2>Add Publication</h2>
 
-<section class="fade">
-    <h2>Talks & Workshops</h2>
-    <div class="card">
-        <p>Balla Mamar — “AI in Education”, Workshop at ESI, 2025.</p>
-    </div>
+    <input id="title" placeholder="Title">
+    <input id="authors" placeholder="Authors (comma separated)">
+    <input id="year" type="number" placeholder="Year">
 
-    <div class="card">
-        <p>Anbila Bousbia — “Sentiment Analytics in Healthcare Data”, Seminar, 2024.</p>
-    </div>
-</section>
+    <select id="category">
+        <option>Journal</option>
+        <option>Conference</option>
+        <option>Book</option>
+    </select>
 
-<footer>
-    <p>© 2026 AI Research Laboratory — ESI Algiers</p>
-</footer>
+    <input id="url" placeholder="Publication URL">
 
-<script src="script.js"></script>
+    <button id="addBtn">Add Publication</button>
+
+</div>
+
+<!-- ================= FILTER ================= -->
+<div class="pub-controls">
+    <input type="text" id="search" placeholder="Search publications">
+
+    <select id="filterCategory">
+        <option value="all">All</option>
+        <option>Journal</option>
+        <option>Conference</option>
+        <option>Book</option>
+    </select>
+</div>
+
+<!-- ================= LIST ================= -->
+<div id="papers"></div>
+
+<script type="module" src="publications.js"></script>
+
 </body>
 </html>

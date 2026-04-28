@@ -30,6 +30,7 @@
     <a href="#research">Research</a>
     <a href="#members">Members</a>
     <a href="#contact">Contact</a>
+    <a href="publications.html">Publications</a>
 </nav>
 
 <section id="about">
@@ -165,16 +166,30 @@
     <p>© 2026 TELIS Research Team — <a href="https://lmcs.esi.dz/laboratoire/presentation/" target="_blank">LMCS Laboratory</a> — <a href="https://esi.dz" target="_blank">ESI Algiers</a></p>
 </footer>
 
-<script>
-    document.querySelectorAll('nav a').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const target = document.getElementById(targetId);
-            if(target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+   <script>
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+
+        const href = this.getAttribute('href');
+
+        // ✅ allow external pages like publications.html
+        if (!href.startsWith("#")) {
+            return; // do NOT prevent default
+        }
+
+        e.preventDefault();
+
+        const targetId = href.substring(1);
+        const target = document.getElementById(targetId);
+
+        if(target){
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
         });
-    });
+      });
 </script>
+
 </body>
 </html>
 
