@@ -1,57 +1,64 @@
 let allPapers = [];
 
-// ================= LOAD =================
-function loadPublications() {
+// ================= LOAD JSON =================
+$(document).ready(function () {
 
-fetch("/api/publications")
-.then(res => res.json())
-.then(data => {
-    allPapers = data;
-    render(data);
-});
+    $.getJSON("publications.json", function (data) {
 
-}
+        // sort by year DESC
+        allPapers = data.sort((a, b) => b.year - a.year);
 
-// ================= ADD =================
-document.getElementById("addBtn").addEventListener("click", () => {
+        render(allPapers);
 
-const paper = {
-title: document.getElementById("title").value,
-authors: document.getElementById("authors").value.split(","),
-year: document.getElementById("year").value,
-category: document.getElementById("category").value,
-url: document.getElementById("url").value
-};
-
-fetch("/api/publications", {
-method: "POST",
-headers: { "Content-Type": "application/json" },
-body: JSON.stringify(paper)
-})
-.then(() => loadPublications());
+    }).fail(function () {
+        alert("Error loading publications.json (check path or run via server)");
+    });
 
 });
 
 // ================= RENDER =================
 function render(list) {
 
-const c = document.getElementById("papers");
-c.innerHTML = "";
+    let html = "";
 
-list.forEach(p => {
+    list.forEach(p => {
 
-c.innerHTML += `
-<div class="paper">
-<h3>${p.title}</h3>
-<p>${(p.authors || []).join(", ")}</p>
-<p>${p.year} • ${p.category}</p>
-<a href="${p.url}" target="_blank">Open</a>
-</div>
-`;
+        html += `
+        <div class="paper">
 
-});
+            <h3>${p.url ? `<a href="${p.url}" target="_blank">${p.title}</a>` : p.title}</h3>
 
+            <p><strong>${p.authors.join(", ")}</strong></p>
+
+            <p>${p.year} • ${p.category}</p>
+
+            ${p.citations ? `<p>Citations: ${p.citations}</p>` : ""}
+
+        </div>
+        `;
+    });
+
+    $("#papers").html(html);
 }
 
-// ================= INIT =================
-window.onload = loadPublications;
+// ================= FILTER =================
+$("#search").on("input", filter);
+$("#filterCategory").on("change", filter);
+
+function filter() {
+
+    let q = $("#search").val().toLowerCase();
+    let c = $("#filterCategory").val();
+
+    let filtered = allPapers.filter(p => {
+
+        let text = JSON.stringify(p).toLowerCase();
+
+        let matchSearch = text.includes(q);
+        let matchCategory = (c === "all" || p.category === c);
+
+        return matchSearch && matchCategory;
+    });
+
+    render(filtered);
+}
