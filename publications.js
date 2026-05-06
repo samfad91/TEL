@@ -26,11 +26,17 @@ function render(list) {
         html += `
         <div class="paper">
 
-            <h3>${p.url ? `<a href="${p.url}" target="_blank">${p.title}</a>` : p.title}</h3>
+            <h3>
+                ${p.url ? `<a href="${p.url}" target="_blank">${p.title}</a>` : p.title}
+            </h3>
 
             <p><strong>${p.authors.join(", ")}</strong></p>
 
-            <p>${p.year} • ${p.category}</p>
+            <p>
+                ${p.year} • ${p.category}
+            </p>
+
+            ${p.venue ? `<p style="color:#444;"><em>${p.venue}</em></p>` : ""}
 
             ${p.citations ? `<p>Citations: ${p.citations}</p>` : ""}
 
@@ -40,7 +46,6 @@ function render(list) {
 
     $("#papers").html(html);
 }
-
 // ================= FILTER =================
 $("#search").on("input", filter);
 $("#filterCategory").on("change", filter);
