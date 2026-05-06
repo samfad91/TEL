@@ -307,35 +307,30 @@ background:#dbeafe;
 .paper {
     background: #ffffff;
 
-    /* smaller size */
-    max-width: 700px;
+    /* WIDTH CONTROL */
+    width: 80%;
     margin: 12px auto;
 
     padding: 12px 16px;
 
-    /* bigger border */
+    /* BORDER (same as before) */
     border: 2px solid #004b9a;
     border-radius: 12px;
 
-    /* smooth effect */
+    /* EFFECTS */
     transition: all 0.25s ease;
-
-    /* subtle shadow */
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-/* HOVER EFFECT */
+/* HOVER (unchanged) */
 .paper:hover {
     transform: translateY(-5px) scale(1.01);
-
     border-color: #007bff;
-
     box-shadow: 0 8px 18px rgba(0,0,0,0.15);
-
     cursor: pointer;
 }
 
-/* title link */
+/* LINKS */
 .paper a {
     color: #004b9a;
     text-decoration: none;
@@ -346,7 +341,7 @@ background:#dbeafe;
     text-decoration: underline;
 }
 
-/* venue style */
+/* VENUE */
 .paper em {
     color: #555;
     font-size: 0.95em;
