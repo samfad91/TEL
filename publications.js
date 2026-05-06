@@ -36,9 +36,10 @@ function render(list) {
                 ${p.year} • ${p.category}
             </p>
 
-            ${p.venue ? `<p style="color:#444;"><em>${p.venue}</em></p>` : ""}
-
-            ${p.citations ? `<p>Citations: ${p.citations}</p>` : ""}
+          <p>
+  ${p.year} • ${p.category}
+  ${p.venue ? `• <em>${p.venue}</em>` : ""}
+</p>
 
         </div>
         `;
