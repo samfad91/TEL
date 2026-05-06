@@ -1,1 +1,1 @@
-# ITEL lab page
+# TEILS lab page
