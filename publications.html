@@ -37,57 +37,9 @@
     <a href="publications.html">Publications</a>
 </nav>
 
-<!-- ================= LOGIN BUTTON ================= -->
-<div style="text-align:center; margin:20px;">
-    <button id="openLoginBtn">Member Access</button>
-</div>
-
-<!-- ================= LOGIN MODAL ================= -->
-<div id="loginModal" class="modal">
-
-    <div class="modal-content">
-
-        <span id="closeModal" class="close">&times;</span>
-
-        <h2>Member Login</h2>
-
-        <!-- EMAIL -->
-        <input type="text" id="email" placeholder="Email or login">
-
-        <!-- PASSWORD (UI ONLY - NOT USED FOR REAL SECURITY) -->
-        <input type="password" id="password" placeholder="Password">
-
-        <button id="loginBtn">Login</button>
-
-    </div>
-
-</div>
-
-<!-- ================= ADD PUBLICATION ================= -->
-<div id="submitBox" style="display:none;">
-
-    <h2>Add Publication</h2>
-
-    <input id="title" placeholder="Title">
-    <input id="authors" placeholder="Authors (comma separated)">
-    <input id="year" type="number" placeholder="Year">
-
-    <select id="category">
-        <option>Journal</option>
-        <option>Conference</option>
-        <option>Book</option>
-    </select>
-
-    <input id="url" placeholder="Publication URL">
-
-    <button id="addBtn">Add Publication</button>
-
-</div>
-
-<!-- ================= FILTER ================= -->
+<!-- FILTER -->
 <div class="pub-controls">
     <input type="text" id="search" placeholder="Search publications">
-
     <select id="filterCategory">
         <option value="all">All</option>
         <option>Journal</option>
@@ -96,10 +48,12 @@
     </select>
 </div>
 
-<!-- ================= LIST ================= -->
+<!-- LIST -->
 <div id="papers"></div>
 
-<script type="module" src="publications.js"></script>
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="publications.js"></script>
 
 </body>
 </html>
