@@ -1,14 +1,136 @@
 [
   {
-    "id": 1,
-    "title": "",
-    "authors": [],
-    "year": null,
-    "category": "",
-    "venue": "",
-    "doi": "",
-    "citations": 0,
-    "scholarId": "",
-    "keywords": []
+    "title": "Design of Refactal: A Serious Game for Introducing Advanced Object-Oriented Programming Concepts",
+    "authors": ["N. Bousbia", "B. Mostefai", "T. Boutefara", "R. Morsli", "K. Mouheb"],
+    "year": 2026,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "Enhancing transparency understanding using machine learning and visual analytics",
+    "authors": ["S. Fadloun", "S. Laouadi", "S. Meshoul", "K. Choutri"],
+    "year": 2026,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "Enhanced fire detection using Dempster–Shafer theory",
+    "authors": ["K. Choutri", "S. Fadloun"],
+    "year": 2026,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "STCALIR: Semi-Synthetic Test Collection for Algerian Legal Information Retrieval",
+    "authors": ["S. Batata", "A. Mammasse", "F. Azouaou"],
+    "year": 2026,
+    "category": "Conference",
+    "url": ""
+  },
+  {
+    "title": "BiSPECTRAX-FND: A Bilingual Transformer Framework for Fake News Detection",
+    "authors": ["A. Mammasse", "K. Bedjou", "F. Azouaou"],
+    "year": 2026,
+    "category": "Journal",
+    "url": ""
+  },
+
+  {
+    "title": "Enhancing user experience in e-learning systems",
+    "authors": ["B. Mostefai", "N. Bousbia", "A. Balla"],
+    "year": 2025,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "A Y-Design formal modeling framework for RESTful APIs-Based E-Learning system",
+    "authors": ["B. Mostefai", "N. Bousbia"],
+    "year": 2024,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "Enriching the learner’s model through semantic analysis",
+    "authors": ["S. Ait Adda", "N. Bousbia", "A. Balla"],
+    "year": 2023,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "Rumor Detection in Algerian Arabizi Based on Deep Learning",
+    "authors": ["M.C. Bousri", "N. Bousbia"],
+    "year": 2022,
+    "category": "Conference",
+    "url": ""
+  },
+  {
+    "title": "Analysis of Students’ Emotions in Online Learning",
+    "authors": ["A. Bensba", "N. Bousbia"],
+    "year": 2022,
+    "category": "Conference",
+    "url": ""
+  },
+  {
+    "title": "Exploiting OO refactoring tools with Android code smells",
+    "authors": ["A. Gattal", "N. Bousbia"],
+    "year": 2021,
+    "category": "Conference",
+    "url": ""
+  },
+  {
+    "title": "Sniffing Android Code Smells",
+    "authors": ["J. Rubin", "N. Bousbia"],
+    "year": 2019,
+    "category": "Conference",
+    "url": ""
+  },
+  {
+    "title": "Adapting eSpeak to Arabic language",
+    "authors": ["T. Zerrouki", "N. Bousbia", "A. Balla"],
+    "year": 2019,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "A User-Centered Educational Modeling Language",
+    "authors": ["A. Zendi", "N. Bousbia"],
+    "year": 2016,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "A semantic analysis of the learner’s disorientation",
+    "authors": ["S. Ait Adda", "N. Bousbia", "A. Balla"],
+    "year": 2016,
+    "category": "Journal",
+    "url": ""
+  },
+  {
+    "title": "Similarity flooding for OWL-S discovery in P2P",
+    "authors": ["A. Boukhadra", "K. Benatchba"],
+    "year": 2015,
+    "category": "Conference",
+    "url": ""
+  },
+  {
+    "title": "Efficient P2P approach for distributed discovery of SWS",
+    "authors": ["A. Boukhadra", "K. Benatchba"],
+    "year": 2015,
+    "category": "Conference",
+    "url": ""
+  },
+  {
+    "title": "Ranked matching of OWL-S process model",
+    "authors": ["A. Boukhadra", "K. Benatchba"],
+    "year": 2014,
+    "category": "Conference",
+    "url": ""
+  },
+  {
+    "title": "Impact of digital library in detecting learning difficulties",
+    "authors": ["S. Ait Adda", "B. Amar"],
+    "year": 2014,
+    "category": "Conference",
+    "url": ""
   }
 ]
