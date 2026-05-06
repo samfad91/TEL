@@ -37,7 +37,6 @@ function render(list) {
             </p>
 
           <p>
-  ${p.year} • ${p.category}
   ${p.venue ? `• <em>${p.venue}</em>` : ""}
 </p>
 
