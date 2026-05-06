@@ -4,6 +4,8 @@
     "authors": ["N. Bousbia", "B. Mostefai", "T. Boutefara", "R. Morsli", "K. Mouheb"],
     "year": 2026,
     "category": "Journal",
+    "venue": "Journal of Educational Computing Research",
+    "citations": null,
     "url": ""
   },
   {
@@ -11,6 +13,8 @@
     "authors": ["S. Fadloun", "S. Laouadi", "S. Meshoul", "K. Choutri"],
     "year": 2026,
     "category": "Journal",
+    "venue": "PeerJ Computer Science",
+    "citations": null,
     "url": ""
   },
   {
@@ -18,6 +22,8 @@
     "authors": ["K. Choutri", "S. Fadloun"],
     "year": 2026,
     "category": "Journal",
+    "venue": "PeerJ Computer Science",
+    "citations": null,
     "url": ""
   },
   {
@@ -25,6 +31,8 @@
     "authors": ["S. Batata", "A. Mammasse", "F. Azouaou"],
     "year": 2026,
     "category": "Conference",
+    "venue": "arXiv preprint arXiv:2604.00731 / SSRN",
+    "citations": null,
     "url": ""
   },
   {
@@ -32,14 +40,125 @@
     "authors": ["A. Mammasse", "K. Bedjou", "F. Azouaou"],
     "year": 2026,
     "category": "Journal",
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": null,
     "url": ""
   },
-
+  {
+    "title": "Improving Arabic Information Retrieval and Reranking Performance Using Knowledge Distillation",
+    "authors": ["M. A. Hatem", "F. Azouaou", "S. Batata"],
+    "year": 2026,
+    "category": "Journal",
+    "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "citations": 2,
+    "url": ""
+  },
+  {
+    "title": "Enhancing Arabic Fake News Detection: An Empirical Study on the GAFND Benchmark and the Impact of Feature Engineering",
+    "authors": ["A. Mammasse", "K. Bedjou", "F. Azouaou"],
+    "year": 2026,
+    "category": "Journal",
+    "venue": "International Journal on Artificial Intelligence Tools",
+    "citations": null,
+    "url": ""
+  },
   {
     "title": "Enhancing user experience in e-learning systems",
-    "authors": ["B. Mostefai", "N. Bousbia", "A. Balla"],
+    "authors": ["B. Mostefai", "N. Bousbia"],
     "year": 2025,
     "category": "Journal",
+    "venue": "Computers in Human Behavior Reports",
+    "citations": 11,
+    "url": ""
+  },
+  {
+    "title": "Leveraging Large Language Models for Real-Time UAV Control",
+    "authors": ["K. Choutri", "S. Fadloun", "A. Khettabi", "M. Lagha", "S. Meshoul", "R. Fareh"],
+    "year": 2025,
+    "category": "Journal",
+    "venue": "Electronics",
+    "citations": 8,
+    "url": ""
+  },
+  {
+    "title": "Fractional Cascaded Non Linear ESO ADRC Control For a Quadrotor UAV",
+    "authors": ["K. Choutri", "I. Fortas", "T. Medjoubi", "S. Fadloun", "R. Fareh", "M. Lagha"],
+    "year": 2025,
+    "category": "Conference",
+    "venue": "IFAC-PapersOnLine",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "IA multimodale pour l’évaluation et la prédiction de la sévérité de la pancréatite aiguë",
+    "authors": ["R. Madani", "M. Taieb", "N. Nait Slimane", "L. Sliman", "H. N. Dellys", "S. Artabaz"],
+    "year": 2025,
+    "category": "Journal",
+    "venue": "e-Algerian Journal of Health & Research",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Feature fusion and selection using handcrafted vs. deep learning methods for multimodal hand biometric recognition",
+    "authors": ["S. Artabaz", "L. Sliman"],
+    "year": 2025,
+    "category": "Journal",
+    "venue": "Scientific Reports",
+    "citations": 7,
+    "url": ""
+  },
+  {
+    "title": "On the integration of social context for enhanced fake news detection using multimodal fusion attention mechanism",
+    "authors": ["H. N. Dellys", "H. Mokeddem", "L. Sliman"],
+    "year": 2025,
+    "category": "Journal",
+    "venue": "AI",
+    "citations": 6,
+    "url": ""
+  },
+  {
+    "title": "Towards Optimized Retrieval-Augmented Generation: A Comprehensive Survey",
+    "authors": ["F. Amar", "W. Houria", "F. Azouaou"],
+    "year": 2025,
+    "category": "Conference",
+    "venue": "International Conference on Theoretical and Applicative Aspects of Computer",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Energy-Efficient LED Management in Smart Parking Systems: A Reinforcement Learning Approach",
+    "authors": ["A. Bounceur", "L. Ouallam", "F. Azouaou", "A. Oulefki", "A. Laouid"],
+    "year": 2025,
+    "category": "Conference",
+    "venue": "International Conference on Computational Intelligence and Network",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Multi-Agent AI-Based Digital Twin for Smart Parking Energy Optimization",
+    "authors": ["A. Bounceur", "A. Gueddoud", "F. Azouaou", "A. Amira", "S. Huseyin"],
+    "year": 2025,
+    "category": "Conference",
+    "venue": "International Conference on Advances in ...",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Comparative analysis of Arabic transformers using an Arabic fake news dataset",
+    "authors": ["A. Mammasse", "K. Bedjou", "F. Azouaou"],
+    "year": 2025,
+    "category": "Journal",
+    "venue": "International Journal of Artificial Intelligence and Soft Computing",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "A novel recommendation of learning items based on deep neural networks and trust relationships",
+    "authors": ["Y. Aissaoui", "L. Berkani", "F. Azouaou"],
+    "year": 2025,
+    "category": "Journal",
+    "venue": "International Journal of Learning Technology",
+    "citations": null,
     "url": ""
   },
   {
@@ -47,6 +166,44 @@
     "authors": ["B. Mostefai", "N. Bousbia"],
     "year": 2024,
     "category": "Journal",
+    "venue": "Studies in Engineering and Exact Sciences",
+    "citations": 1,
+    "url": ""
+  },
+  {
+    "title": "On Efficiency of Square-Boundaries Chaff Points Generation With Composite Representation in Fingerprint Fuzzy Vault",
+    "authors": ["H. N. Dellys", "L. Sliman", "B. T. Morris", "K. Benatchba"],
+    "year": 2024,
+    "category": "Journal",
+    "venue": "IEEE Access",
+    "citations": 1,
+    "url": ""
+  },
+  {
+    "title": "Vision-based human fall detection systems: A review",
+    "authors": ["A. Benkaci", "L. Sliman", "H. N. Dellys"],
+    "year": 2024,
+    "category": "Journal",
+    "venue": "Procedia Computer Science",
+    "citations": 25,
+    "url": ""
+  },
+  {
+    "title": "Architectural Comparisons and Performance Evaluation of Transformer Models on Sequence Classification: A Case Study on Fake News Detection",
+    "authors": ["A. Mammasse", "K. Bedjou", "M. A. Hatem", "F. Azouaou"],
+    "year": 2024,
+    "category": "Conference",
+    "venue": "International Conference on Modeling, Simulation and Computer Technology",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "The annotators agree to not agree on the fine-grained annotation of hate-speech against women in Algerian dialect comments",
+    "authors": ["I. Guellil", "Y. Houichi", "S. Chennoufi", "M. Boubred", "A. Y. Boucetta", "F. Azouaou"],
+    "year": 2024,
+    "category": "Conference",
+    "venue": "Proceedings of the Fifth Workshop on Resources for African Indigenous",
+    "citations": 1,
     "url": ""
   },
   {
@@ -54,13 +211,71 @@
     "authors": ["S. Ait Adda", "N. Bousbia", "A. Balla"],
     "year": 2023,
     "category": "Journal",
+    "venue": "E-Learning and Digital Media",
+    "citations": 3,
+    "url": ""
+  },
+  {
+    "title": "Visual analytics using machine learning for transparency requirements",
+    "authors": ["S. Fadloun", "K. Bennamane", "S. Meshoul", "M. Hosseini", "K. Choutri"],
+    "year": 2023,
+    "category": "Journal",
+    "venue": "Mathematics",
+    "citations": 4,
+    "url": ""
+  },
+  {
+    "title": "Reinforcement learning-based control for an upper limb rehabilitation robot",
+    "authors": ["Z. Al-Jumaili", "T. Siddique", "R. Fareh", "M. A. Y. Abdallah", "M. R. Khan", "M. H. Rahman"],
+    "year": 2023,
+    "category": "Conference",
+    "venue": "Advances in Science and Engineering Technology International",
+    "citations": 8,
+    "url": ""
+  },
+  {
+    "title": "Detection of Terrorism’s Apologies on Twitter using a New Bi-lingual Dataset",
+    "authors": ["K. Bedjou", "F. Azouaou"],
+    "year": 2023,
+    "category": "Journal",
+    "venue": "International Journal of Data Mining, Modelling and Management",
+    "citations": 2,
+    "url": ""
+  },
+  {
+    "title": "Exploring profile textual features for cross-network linkability: application to Quora and Twitter users",
+    "authors": ["Y. Benkhedda", "F. Azouaou", "S. Abbar"],
+    "year": 2023,
+    "category": "Journal",
+    "venue": "International Journal of Computer Applications in Technology",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Siamese BERT-Networks for extreme imbalance long Legal Texts Classification",
+    "authors": ["M. A. Hatem", "M. Bouazabia", "F. Azouaou", "S. Batata"],
+    "year": 2023,
+    "category": "Conference",
+    "venue": "4th National Study Day on Research on Computer Sciences (JERI'2023)",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Optimizing User Profile Matching: A Text-Based Approach",
+    "authors": ["Y. Benkhedda", "F. Azouaou"],
+    "year": 2023,
+    "category": "Journal",
+    "venue": "International Journal of Computers and Applications",
+    "citations": 1,
     "url": ""
   },
   {
     "title": "Rumor Detection in Algerian Arabizi Based on Deep Learning",
-    "authors": ["M.C. Bousri", "N. Bousbia"],
+    "authors": ["M. C. Bousri", "N. Bousbia"],
     "year": 2022,
     "category": "Conference",
+    "venue": "Modelling and Implementation of Complex Systems: Proceedings of the 7th",
+    "citations": 4,
     "url": ""
   },
   {
@@ -68,6 +283,89 @@
     "authors": ["A. Bensba", "N. Bousbia"],
     "year": 2022,
     "category": "Conference",
+    "venue": "International Conference on Advanced Aspects of Software Engineering",
+    "citations": 2,
+    "url": ""
+  },
+  {
+    "title": "Forest fire detection using IoT enabled UAV and computer vision",
+    "authors": ["K. Choutri", "S. Fadloun", "M. Lagha", "F. Bouzidi", "W. Charef"],
+    "year": 2022,
+    "category": "Conference",
+    "venue": "International Conference on Artificial Intelligence of Things (ICAIoT)",
+    "citations": 8,
+    "url": ""
+  },
+  {
+    "title": "Visualization system for transparency requirement analytics",
+    "authors": ["S. Fadloun", "S. Meshoul", "M. Hosseini", "A. Amokrane", "H. Bennaceur"],
+    "year": 2022,
+    "category": "Journal",
+    "venue": "Applied Sciences",
+    "citations": 3,
+    "url": ""
+  },
+  {
+    "title": "TrajectoryVis: a visual approach to explore movement trajectories",
+    "authors": ["S. Fadloun", "Y. Morakeb", "E. Cuenca", "K. Choutri"],
+    "year": 2022,
+    "category": "Journal",
+    "venue": "Social Network Analysis and Mining",
+    "citations": 4,
+    "url": ""
+  },
+  {
+    "title": "CircleVis: a visualization tool for circular labeling arrangements and overlap removal",
+    "authors": ["S. Fadloun", "S. Meshoul", "K. Choutri"],
+    "year": 2022,
+    "category": "Journal",
+    "venue": "Applied Sciences",
+    "citations": 4,
+    "url": ""
+  },
+  {
+    "title": "Path planning and formation control for uav-enabled mobile edge computing network",
+    "authors": ["K. Choutri", "M. Lagha", "S. Meshoul", "S. Fadloun"],
+    "year": 2022,
+    "category": "Journal",
+    "venue": "Sensors",
+    "citations": 6,
+    "url": ""
+  },
+  {
+    "title": "Multi-label text classification of Algerian Arabic legal texts using transfer learning models",
+    "authors": ["M. Bouazabia", "M. A. Hatem", "F. Azouaou", "S. Batata"],
+    "year": 2022,
+    "category": "Conference",
+    "venue": "Scientific Workshop On Preliminary Research Work in Computer Science",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Profile Fusion in Social Networks: A Data-Driven Approach",
+    "authors": ["Y. Benkhedda", "F. Azouaou", "S. Abbar"],
+    "year": 2022,
+    "category": "Book Chapter",
+    "venue": "Social Media Analysis for Event Detection",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "A Survey of Plagiarism Detection Systems: Case of Use with English, French and Arabic Languages",
+    "authors": ["M. Abdelhamid", "F. Azouaou", "S. Batata"],
+    "year": 2022,
+    "category": "Preprint",
+    "venue": "arXiv",
+    "citations": 20,
+    "url": ""
+  },
+  {
+    "title": "Ara-Women-Hate: An annotated corpus dedicated to Hate speech detection against women in the Arabic community",
+    "authors": ["I. Guellil", "A. Ahsan", "F. Azouaou", "M. Boubred", "Y. Houichi", "A. Abdelhaq"],
+    "year": 2022,
+    "category": "Conference",
+    "venue": "1st Workshop on Dataset Creation for Lower-Resourced Languages (DCLRL)",
+    "citations": 11,
     "url": ""
   },
   {
@@ -75,6 +373,71 @@
     "authors": ["A. Gattal", "N. Bousbia"],
     "year": 2021,
     "category": "Conference",
+    "venue": "Proceedings of the 36th Annual ACM Symposium on Applied Computing",
+    "citations": 6,
+    "url": ""
+  },
+  {
+    "title": "Optimized multi‐biometric enhancement analysis",
+    "authors": ["S. Artabaz", "L. Sliman", "K. Benatchba", "M. Koudil"],
+    "year": 2021,
+    "category": "Journal",
+    "venue": "IET Biometrics",
+    "citations": 3,
+    "url": ""
+  },
+  {
+    "title": "COVID19 et résilience des Ecoles Supérieures. Retour d’Expérience sur la Gouvernance pédagogique au sein de l’ESI Alger",
+    "authors": ["A. R. Ghomari", "F. Azouaou"],
+    "year": 2021,
+    "category": "Conference",
+    "venue": "DZ 16 ENI OT 18, Séminaire Didactique, Jumelage institutionnel P3A",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Numérique et Résilience des Ecoles Supérieures. Retour d’Expérience du Cas ESI Alger",
+    "authors": ["A. R. Ghomari", "F. Azouaou"],
+    "year": 2021,
+    "category": "Conference",
+    "venue": "COLLOQUE NATIONAL « Financement, Gouvernance et Innovation : Triptyque de ...",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Sexism detection: The first corpus in Algerian dialect with a code-switching in Arabic/French and English",
+    "authors": ["I. Guellil", "A. Adeel", "F. Azouaou", "M. Boubred", "Y. Houichi", "A. A. Moumna"],
+    "year": 2021,
+    "category": "Preprint",
+    "venue": "arXiv",
+    "citations": 15,
+    "url": ""
+  },
+  {
+    "title": "ONE: Toward ONE model, ONE algorithm, ONE corpus dedicated to sentiment analysis of Arabic/Arabizi and its dialects",
+    "authors": ["I. Guellil", "F. Azouaou", "F. Benali", "H. Ala-Eddine"],
+    "year": 2021,
+    "category": "Conference",
+    "venue": "Proceedings of the Eleventh Workshop on Computational Approaches to",
+    "citations": 6,
+    "url": ""
+  },
+  {
+    "title": "A semi-supervised approach for sentiment analysis of arab (ic+ izi) messages: Application to the algerian dialect",
+    "authors": ["I. Guellil", "A. Adeel", "F. Azouaou", "F. Benali", "A. E. Hachani", "K. Dashtipour"],
+    "year": 2021,
+    "category": "Journal",
+    "venue": "SN Computer Science",
+    "citations": 58,
+    "url": ""
+  },
+  {
+    "title": "Computer and Information Sciences",
+    "authors": ["I. Guellil", "H. Saâdane", "F. Azouaou", "B. Gueni", "D. Nouvel"],
+    "year": 2021,
+    "category": "Journal",
+    "venue": "Journal of King Saud University – Computer and Information Sciences",
+    "citations": 1,
     "url": ""
   },
   {
@@ -82,6 +445,8 @@
     "authors": ["J. Rubin", "N. Bousbia"],
     "year": 2019,
     "category": "Conference",
+    "venue": "IEEE/ACM 6th International Conference on Mobile Software Engineering",
+    "citations": 17,
     "url": ""
   },
   {
@@ -89,6 +454,71 @@
     "authors": ["T. Zerrouki", "N. Bousbia", "A. Balla"],
     "year": 2019,
     "category": "Journal",
+    "venue": "International Journal of Reasoning-based Intelligent Systems",
+    "citations": 14,
+    "url": ""
+  },
+  {
+    "title": "Study of Score Fusion and Quality Weighting in the Bio-Secure DS2 Database",
+    "authors": ["S. Artabaz", "L. Sliman"],
+    "year": 2019,
+    "category": "Conference",
+    "venue": "International Conference on Soft Computing in Data Science",
+    "citations": 1,
+    "url": ""
+  },
+  {
+    "title": "EpidNews: un explorateur de données épidémiologiques pour la surveillance des maladies animales",
+    "authors": ["A. Delaforge", "R. Goel", "S. Fadloun", "S. Valentin", "A. Sallaberry", "M. Roche"],
+    "year": 2019,
+    "category": "Conference",
+    "venue": "IC",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "EpidNews: an epidemiological news explorer for monitoring animal diseases",
+    "authors": ["R. Goel", "S. Fadloun", "S. Valentin", "A. Sallaberry", "M. Roche", "P. Poncelet"],
+    "year": 2018,
+    "category": "Conference",
+    "venue": "Proceedings of the 11th international symposium on visual information",
+    "citations": 9,
+    "url": ""
+  },
+  {
+    "title": "Integration of Text- and Web-Mining Results in EpidVis",
+    "authors": ["S. Fadloun", "A. Sallaberry", "A. Mercier", "E. Arsevska", "P. Poncelet", "M. Roche"],
+    "year": 2018,
+    "category": "Conference",
+    "venue": "International Conference on Applications of Natural Language to Information",
+    "citations": 2,
+    "url": ""
+  },
+  {
+    "title": "Security, safety and confidentiality in iot for collaborative business technologies (SSCIoT track of WETICE 2018)",
+    "authors": ["L. Sliman", "H. N. Dellys"],
+    "year": 2018,
+    "category": "Conference",
+    "venue": "IEEE 27th International Conference on Enabling Technologies",
+    "citations": 3,
+    "url": ""
+  },
+  {
+    "title": "Chaff-points generation method based on adaptive genetic algorithms and non-fixed size squares boundaries for resource constrained devices",
+    "authors": ["H. N. Dellys", "K. Benatchba", "L. Sliman", "Y. W. Chen"],
+    "year": 2018,
+    "category": "Conference",
+    "venue": "IFIP International Conference on New Technologies, Mobility and",
+    "citations": 3,
+    "url": ""
+  },
+  {
+    "title": "Arabizi sentiment analysis based on transliteration and automatic corpus annotation",
+    "authors": ["I. Guellil", "A. Adeel", "F. Azouaou", "F. Benali", "A. Hachani", "A. Hussain"],
+    "year": 2018,
+    "category": "Conference",
+    "venue": "Proceedings of the 9th workshop on computational approaches to subjectivity",
+    "citations": 34,
     "url": ""
   },
   {
@@ -96,6 +526,8 @@
     "authors": ["A. Zendi", "N. Bousbia"],
     "year": 2016,
     "category": "Journal",
+    "venue": "Journal of Educational Computing Research",
+    "citations": 1,
     "url": ""
   },
   {
@@ -103,6 +535,44 @@
     "authors": ["S. Ait Adda", "N. Bousbia", "A. Balla"],
     "year": 2016,
     "category": "Journal",
+    "venue": "International Journal of Emerging Technologies in Learning",
+    "citations": 8,
+    "url": ""
+  },
+  {
+    "title": "Multibiometrics enhancement using quality measurement in score level fusion",
+    "authors": ["S. Artabaz", "L. Sliman", "H. N. Dellys", "K. Benatchba", "M. Koudil"],
+    "year": 2016,
+    "category": "Conference",
+    "venue": "International conference on intelligent systems design and applications",
+    "citations": 5,
+    "url": ""
+  },
+  {
+    "title": "Chaff-Points Generation Using Knapsack Problem Resolution in Fingerprint Fuzzy Vault",
+    "authors": ["H. N. Dellys", "L. Sliman", "S. Artabaz", "K. Benatchba", "M. Koudil"],
+    "year": 2016,
+    "category": "Conference",
+    "venue": "International Conference on Hybrid Intelligent Systems",
+    "citations": 1,
+    "url": ""
+  },
+  {
+    "title": "Efficient distributed discovery and composition of OWL-S process model in P2P systems",
+    "authors": ["A. Boukhadra", "K. Benatchba", "A. Balla"],
+    "year": 2016,
+    "category": "Journal",
+    "venue": "Journal of Ambient Intelligence and ...",
+    "citations": 13,
+    "url": ""
+  },
+  {
+    "title": "Chaff Point Generation by Squares Method Using Composite Representation in Fingerprint Fuzzy Vault",
+    "authors": ["H. N. Dellys", "N. Benadjimi", "M. R. Boubakeur", "L. Sliman", "F. Ali"],
+    "year": 2016,
+    "category": "Journal",
+    "venue": "Journal of Information Assurance & Security",
+    "citations": 4,
     "url": ""
   },
   {
@@ -110,6 +580,8 @@
     "authors": ["A. Boukhadra", "K. Benatchba"],
     "year": 2015,
     "category": "Conference",
+    "venue": "Procedia Computer Science",
+    "citations": 4,
     "url": ""
   },
   {
@@ -117,6 +589,62 @@
     "authors": ["A. Boukhadra", "K. Benatchba"],
     "year": 2015,
     "category": "Conference",
+    "venue": "Distributed Computing and Artificial Intelligence, 12th International",
+    "citations": 2,
+    "url": ""
+  },
+  {
+    "title": "Evaluation de la désorientation de l’apprenant dans un système d’apprentissage",
+    "authors": ["S. Ait-Adda", "N. Bousbia"],
+    "year": 2015,
+    "category": "Conference",
+    "venue": "La 7ème édition de la conférence EIAH (EIAH'2015) ; Atelier Évaluation des",
+    "citations": 2,
+    "url": ""
+  },
+  {
+    "title": "Adaptation based on navigation type and learning style",
+    "authors": ["N. Bousbia", "A. Gheffar", "A. Balla"],
+    "year": 2015,
+    "category": "Conference",
+    "venue": "Advances in Web-Based Learning–ICWL 2013 Workshops",
+    "citations": 5,
+    "url": ""
+  },
+  {
+    "title": "Score level fusion scheme in hybrid multibiometric system",
+    "authors": ["S. Artabaz", "L. Sliman", "K. Benatchba", "H. N. Dellys", "M. Koudil"],
+    "year": 2015,
+    "category": "Conference",
+    "venue": "International Visual Informatics Conference",
+    "citations": 5,
+    "url": ""
+  },
+  {
+    "title": "A critical comparison of fingerprint fuzzy vault techniques",
+    "authors": ["H. N. Dellys", "N. Benadjimi", "M. R. Boubakeur", "L. Sliman", "K. Benatchba"],
+    "year": 2015,
+    "category": "Conference",
+    "venue": "International Visual Informatics Conference",
+    "citations": 5,
+    "url": ""
+  },
+  {
+    "title": "Palmprint recognition system: Case Study with different databases",
+    "authors": ["A. Saliha", "D. H. Nabil", "B. Karima", "K. Mouloud", "B. Ahmed"],
+    "year": 2015,
+    "category": "Journal",
+    "venue": "Journal of Information Assurance & Security",
+    "citations": 1,
+    "url": ""
+  },
+  {
+    "title": "Fingerprint fuzzy vault chaff point generation by squares method",
+    "authors": ["H. N. Dellys", "N. Benadjimi", "M. R. Boubakeur", "L. Sliman", "F. Ali"],
+    "year": 2015,
+    "category": "Conference",
+    "venue": "International Conference of Soft Computing and Pattern Recognition",
+    "citations": 5,
     "url": ""
   },
   {
@@ -124,6 +652,8 @@
     "authors": ["A. Boukhadra", "K. Benatchba"],
     "year": 2014,
     "category": "Conference",
+    "venue": "17th International Conference on Network-Based Information Systems",
+    "citations": 13,
     "url": ""
   },
   {
@@ -131,6 +661,44 @@
     "authors": ["S. Ait Adda", "B. Amar"],
     "year": 2014,
     "category": "Conference",
+    "venue": "4th International Symposium ISKO-Maghreb: Concepts and Tools for",
+    "citations": 2,
+    "url": ""
+  },
+  {
+    "title": "ESITrace: a user side trace and annotation collection tool",
+    "authors": ["A. Louifi", "N. Bousbia", "F. Azouaou", "F. Merzoug"],
+    "year": 2014,
+    "category": "Conference",
+    "venue": "New Horizons in Web Based Learning: ICWL 2011 International Workshops",
+    "citations": 2,
+    "url": ""
+  },
+  {
+    "title": "Hybrid ontology-based matching for distributed discovery of sws in p2p systems",
+    "authors": ["A. Boukhadra", "K. Benatchba", "A. Balla"],
+    "year": 2014,
+    "category": "Conference",
+    "venue": "2014 IEEE 6th Intl Symp on",
+    "citations": 4,
+    "url": ""
+  },
+  {
+    "title": "Extraction method of Region of Interest from hand palm: Application with contactless and touchable devices",
+    "authors": ["A. Saliha", "B. Karima", "K. Mouloud", "D. H. Nabil", "B. Ahmed"],
+    "year": 2014,
+    "category": "Conference",
+    "venue": "10th International Conference on Information Assurance and Security",
+    "citations": null,
+    "url": ""
+  },
+  {
+    "title": "Which Contribution Does EDM Provide to Computer-Based Learning Environments?",
+    "authors": ["N. Bousbia", "I. Belamri"],
+    "year": 2014,
+    "category": "Book Chapter",
+    "venue": "Educational Data Mining",
+    "citations": null,
     "url": ""
   }
 ]
